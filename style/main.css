@@ -1,6 +1,6 @@
 :root{
     --vermelho:#E50914;
-    --preto:black;
+    --preto:rgb(12, 1, 1);
 }
 *{
     margin: 0;
@@ -10,7 +10,7 @@
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
-
+    color: white;
 }
 
 
@@ -40,4 +40,12 @@ header nav a{
 
 header nav a :hover {
     color: #fff;
+}
+
+/*definições do filme-principal*/
+.filme-principal{
+    font-size: 16px;
+    background: url('capa-house.jpg');
+    height: 400px;
+    background-size: cover;
 }
